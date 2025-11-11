@@ -158,6 +158,12 @@ class Course(){
 
 // ==================== Main Function ====================
 int main() {
+   Person p =new Person(Divan,16003727);
+   Student s = new Student(2,informatics);
+   Instructor i = new Instructor(informatics, 3);
+   Course c = new Course(321,programming III, 35);
+   c.addStudent(s);
+   cout<<endl<< c.display()<<endl<< i.display()<<endl<<s.display();
    
     
     return 0;
